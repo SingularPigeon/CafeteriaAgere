@@ -1,0 +1,28 @@
+.btn {
+  font-family: $pt-mono;
+  text-align: center;
+  padding: 10px;
+  min-width: 9rem;
+  max-width: 100%;
+
+  &--primary {
+    background-color: $white;
+    border-color: solid 1px $black;
+    &:hover {
+      cursor: pointer;
+      border: solid 1px $grey;
+      color: $grey;
+    }
+  }
+
+  &--secondary {
+    background-color: $green;
+    color: $white;
+   
+    &:hover {
+      cursor: pointer;
+      color: $iron;
+      background-color: $green-light;
+    }
+  }
+}

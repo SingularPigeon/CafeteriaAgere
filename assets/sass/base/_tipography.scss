@@ -1,0 +1,24 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h4,h5,h6 {
+  font-family: "PT Mono", monospace;
+}
+
+h1 {
+  font-size: $xxx-large;
+}
+
+h2 {
+  font-size: $xx-large;
+}
+h3 {
+  font-size: $large;
+}
+
+p, span {
+  font-size: $medium;
+}
+

@@ -1,0 +1,11 @@
+.section__hero {
+  display: flex;
+  align-items: end;
+
+  &__left {
+    width: 70%;
+  }
+  &__right {
+    width: 30%;
+  }
+}

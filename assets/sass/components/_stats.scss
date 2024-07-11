@@ -1,0 +1,36 @@
+.hero__stats {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: $white-fog;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 120px;
+  width: 150px;
+  padding: 15px;
+ 
+  &--grey {
+    background-color: $white-fog;
+  }
+
+  &--yellow {
+
+    background-color: $coral-light;
+    width: 120px;
+  }
+
+  &--orange {
+    position: absolute;
+    bottom: 20px;
+    left: 440px;
+    width: 120px;
+    background-color: $flame;
+    font-size: $xx-large;
+    color: $white;
+  }
+}

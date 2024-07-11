@@ -1,7 +1,6 @@
 // 1.-Import abstracts
 @import "abstracts/variables";
 
-
 //2.- Import vendors
 @import "vendors/googlefonts";
 
@@ -9,22 +8,14 @@
 @import "base/reset", "base/tipography";
 
 //4.- Import Layout
-@import 'layout/navbar', "layout/section", "layout/container";
+@import "layout/navbar", "layout/section", "layout/container";
 
 //.5- Import Components
-@import "components/navbarBrand", "components/buttons","components/logo","components/stats", "components/image";
-
-
-
-
-
-
-
+@import "components/navbarBrand", "components/buttons", "components/logo",
+  "components/stats", "components/image", "components/map", "components/blocktext";
 
 //7.- Import Themes
 @import "themes/theme";
 
-
-
 //.-Import shame
-@import "shame/_shame.css"
+@import "shame/_shame.css";

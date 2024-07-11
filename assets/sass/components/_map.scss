@@ -1,0 +1,12 @@
+.map {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  display: flex;
+
+  &__back {
+    background-color: $blue;
+    min-width: 30vw;
+    min-height: 25vh;
+  }
+}

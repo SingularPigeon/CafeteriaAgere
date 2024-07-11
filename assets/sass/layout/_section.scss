@@ -1,6 +1,5 @@
 .section {
   display: flex;
-  justify-content: start;
 
 
   &__left {
@@ -19,8 +18,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-
     padding: $mx-container;
     width: 40%;
   }
+
+
+
+  .section-bt {
+    display: flex;
+ 
+    &__left {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: start;
+      width: 60%;
+    
+    }
+
+    &__right {
+      position: relative;
+      display: flex;
+      justify-content: start;
+      align-items:flex-start;
+      width: 40%;
+    }
+    
+  }
 }
+
+

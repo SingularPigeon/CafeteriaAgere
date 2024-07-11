@@ -28,6 +28,7 @@ body {
 
 h1, h2, h3, h4, h4, h5, h6 {
   font-family: "PT Mono", monospace;
+  padding-bottom: 10px;
 }
 
 h1 {
@@ -49,13 +50,12 @@ p, span {
 .navbar {
   display: flex;
   align-items: center;
-  margin: 2rem;
+  margin: 3rem;
   justify-content: space-between;
 }
 
 .section {
   display: flex;
-  justify-content: start;
 }
 .section__left {
   position: relative;
@@ -71,7 +71,25 @@ p, span {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  padding: 2rem;
+  padding: 3rem;
+  width: 40%;
+}
+.section .section-bt {
+  display: flex;
+}
+.section .section-bt__left {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 60%;
+}
+.section .section-bt__right {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
   width: 40%;
 }
 
@@ -126,18 +144,20 @@ p, span {
   position: absolute;
   right: 0;
   display: flex;
-  justify-content: end;
+  justify-content: flex-start;
   background-color: #EEEDED;
   height: 12vh;
-  gap: 10px;
+  width: 30vw;
+  gap: 5px;
 }
 
 .stats {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: start;
+  text-align: left;
+  padding: 10px 30px;
 }
 .stats--grey {
   background-color: #EEEDED;
@@ -166,6 +186,40 @@ p, span {
   width: 60vw;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.image__map {
+  width: 30vw;
+}
+.image__galery {
+  width: 40vw;
+}
+.image--xs {
+  position: absolute;
+  left: -50px;
+  width: 5vw;
+  height: 20vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.map {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  display: flex;
+}
+.map__back {
+  background-color: #3c91e6;
+  min-width: 30vw;
+  min-height: 25vh;
+}
+
+.block__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20vw;
+  padding: 3rem;
 }
 
 a {

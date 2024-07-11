@@ -2,18 +2,21 @@
   position: absolute;
   right: 0;
   display: flex;
-  justify-content: end;
+  justify-content: flex-start;
   background-color: $white-fog;
   height: 12vh;
-  gap: 10px;
+  width: 30vw;
+  gap: 5px;
 }
 
 .stats {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: start;
+  text-align: left;
+  padding: 10px 30px;
+
   &--grey {
     background-color: $white-fog;
   }

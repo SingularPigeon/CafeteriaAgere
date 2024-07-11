@@ -12,7 +12,7 @@
 @import 'layout/navbar', "layout/section", "layout/container";
 
 //.5- Import Components
-@import "components/navbarBrand", "components/buttons","components/logo","components/stats";
+@import "components/navbarBrand", "components/buttons","components/logo","components/stats", "components/image";
 
 
 
@@ -23,3 +23,8 @@
 
 //7.- Import Themes
 @import "themes/theme";
+
+
+
+//.-Import shame
+@import "shame/_shame.css"

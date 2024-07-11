@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "shame/_shame.css";
 :root {
   margin: 0;
   padding: 0;
@@ -52,20 +53,32 @@ p, span {
   justify-content: space-between;
 }
 
-.section__hero {
+.section {
   display: flex;
-  align-items: end;
+  justify-content: start;
 }
-.section__hero__left {
-  width: 70%;
+.section__left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+  width: 60%;
 }
-.section__hero__right {
-  width: 30%;
+.section__right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 2rem;
+  width: 40%;
 }
 
-.hero__container {
-  display: flex;
-  align-items: center;
+.hero__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .navbar__brand {
@@ -110,10 +123,13 @@ p, span {
 }
 
 .hero__stats {
-  display: flex;
-  align-items: center;
   position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: end;
   background-color: #EEEDED;
+  height: 12vh;
+  gap: 10px;
 }
 
 .stats {
@@ -121,26 +137,35 @@ p, span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: left;
-  height: 120px;
-  width: 150px;
-  padding: 15px;
+  text-align: center;
 }
 .stats--grey {
   background-color: #EEEDED;
 }
 .stats--yellow {
   background-color: #f1dd7b;
-  width: 120px;
+  width: 12vh;
+  height: 12vh;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
 }
 .stats--orange {
   position: absolute;
-  bottom: 20px;
-  left: 440px;
-  width: 120px;
+  left: 5%;
+  bottom: 5%;
+  width: 12vh;
+  height: 12vh;
   background-color: #e4572e;
   font-size: 40px;
   color: #fff;
+  text-align: center;
+}
+
+.image {
+  width: 60vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {

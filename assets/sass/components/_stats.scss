@@ -1,36 +1,41 @@
 .hero__stats {
-  display: flex;
-  align-items: center;
   position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: end;
   background-color: $white-fog;
+  height: 12vh;
+  gap: 10px;
 }
+
 .stats {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: left;
-  height: 120px;
-  width: 150px;
-  padding: 15px;
- 
+  text-align: center;
   &--grey {
     background-color: $white-fog;
   }
 
   &--yellow {
-
     background-color: $coral-light;
-    width: 120px;
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
   }
 
   &--orange {
     position: absolute;
-    bottom: 20px;
-    left: 440px;
-    width: 120px;
+    left: 5%;
+    bottom: 5%;
+    width: 12vh;
+    height: 12vh;
     background-color: $flame;
     font-size: $xx-large;
     color: $white;
+    text-align: center;
   }
 }
